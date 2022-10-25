@@ -1,0 +1,17 @@
+main {height: 100vh;
+display:grid;
+grid-row-gap: 10px;
+grid-column-gap: 30px;
+/* Es la suma de los dos anteriores grid-gap: 10px 30px; */
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(3, 1fr);
+/* Implicig grid */
+grid-auto-rows: 1fr;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    color: white;
+}
